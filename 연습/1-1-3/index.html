@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./practice.css" ref="stylesheet" type="text/css">
+    <script type="text/javascript" src="add_two_numbers.js"></script>
+    <script type="text/javascript" src="what_time_is_it.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./blog.list.html">Blog</a>
+        <a href="./about_me.html">About me</a>
+    </nav>
+
+    <h1>첫번째 크기 헤드라인</h1>
+    <h2>두 번째 크기 헤드라인</h2>
+    <h3>세 번째 크기 헤드라인</h3>
+    <h4>네 번째 크기 헤드라인</h4>
+    <h5>다섯 번째 크기 헤드라인</h5>
+
+    <button onclick="whatTimeIsIt()">현재시간</button>
+    <!-- <현재시간> 버튼을 클릭하면 onclick 속성에 저장된 whatTimeIsIt() 함수가 실행되면서 현재 시간을 팝업으로 보여줌 -->
+    <hr />
+
+    <label for="inputA">a</label>
+    <input id="inputA" value=1 onkeyup="doSomething()">
+    <label for=""inputB>b</label>
+    <input id="inputB" value=2 onkeyup="doSomething()">
+    <!-- inputA, inputB라는 id로 <input> 태그 추가 -->
+    <!-- <input> 태그에 onkeyup="doSomething()"을 추가해 이 요소에서 키보드의 키가 눌렸다가 올라가면 doSomething() 함수가 실행되도록 설정 -->
+    
+    <!-- 결괏값을 출력하는 문장 -->
+    <p><span id="valueA">1</span> + <span id="valudB">2</span> = <span id="valueC">3</span></p>
+    <p>문단은 p로 쓰세요. p는 아마도 Paragraph의 앞글자를 따온 것이겠죠?</p>
+    <a href="https://www.google.com">Go to google</a>
+    <hr/> <!-- 수평선 그어주는 태그 -->
+</body>
+</html>
